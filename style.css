@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  background-color: #f5eeff;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+#divider {
+  width: 55vw;
+  height: 1px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+#header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 38px;
+}
+
+.inner-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  width: 200px;
+  height: 300px;
+  margin: 20px;
+  background-color: white;
+  -webkit-box-shadow: 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+}
+
+.grid-item:hover {
+  -webkit-box-shadow: 1px 1px 20px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 20px -5px rgba(0, 0, 0, 0.5);
+}
+
+.grid-container {
+  display: flex;
+  padding: 5px;
+  flex-direction: row;
+}
+
+.thumbnail-spongebob {
+  margin: 5px;
+  display: flex;
+  border-radius: 10px;
+  height: 80%;
+  width: 95%;
+  -webkit-box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  background-image: url(./spongebob.JPG);
+  background-size: cover;
+}
+
+.thumbnail-sad-scarjo {
+  margin: 5px;
+  display: flex;
+  border-radius: 10px;
+  height: 80%;
+  width: 95%;
+  -webkit-box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  background-image: url(./sad-scarjo.JPG);
+  background-size: cover;
+}
+
+.thumbnail-arthur {
+  margin: 5px;
+  display: flex;
+  border-radius: 10px;
+  height: 80%;
+  width: 95%;
+  -webkit-box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  background-image: url(./arthur.jpg);
+  background-size: 220px 250px;
+}
+
+.thumbnail-dog {
+  margin: 5px;
+  display: flex;
+  border-radius: 10px;
+  height: 80%;
+  width: 95%;
+  -webkit-box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  background-image: url(./dog.JPG);
+  background-size: 190px 250px;
+}
+
+.thumbnail-simpson {
+  margin: 5px;
+  display: flex;
+  border-radius: 10px;
+  height: 80%;
+  width: 95%;
+  -webkit-box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  background-image: url(./simpson.jpg);
+  background-size: cover;
+}
+
+.thumbnail-shrek {
+  margin: 5px;
+  display: flex;
+  border-radius: 10px;
+  height: 80%;
+  width: 95%;
+  -webkit-box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  background-image: url(./shrek.JPG);
+  background-size: 190px 250px;
+}
+
+.thumbnail-gibby {
+  margin: 5px;
+  display: flex;
+  border-radius: 10px;
+  height: 80%;
+  width: 95%;
+  -webkit-box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  background-image: url(./gibby.JPG);
+  background-size: cover;
+}
+
+.thumbnail-dababy {
+  margin: 5px;
+  display: flex;
+  border-radius: 10px;
+  height: 80%;
+  width: 95%;
+  -webkit-box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  background-image: url(./dababy.JPG);
+  background-size: cover;
+}
+
+.thumbnail-lois {
+  margin: 5px;
+  display: flex;
+  border-radius: 10px;
+  height: 80%;
+  width: 95%;
+  -webkit-box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  background-image: url(./lois.JPG);
+  background-size: cover;
+}
+
+.caption {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
