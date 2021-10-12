@@ -22,7 +22,7 @@ body {
   font-size: 38px;
 }
 
-.inner-div {
+.grid-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -166,4 +166,5 @@ body {
 .caption {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
+  text-align: center;
 }
