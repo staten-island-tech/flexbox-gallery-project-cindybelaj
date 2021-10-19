@@ -18,8 +18,24 @@ body {
 }
 
 #header {
+  position: relative;
+  animation: 1s slide-down;
   font-family: "Montserrat", sans-serif;
   font-size: 38px;
+  cursor: pointer;
+}
+
+#header:hover {
+  font-size: 40px;
+}
+
+@keyframes slide-down {
+  from {
+    top: -150px;
+  }
+  to {
+    top: 0px;
+  }
 }
 
 .grid-container {
@@ -42,6 +58,25 @@ body {
   background-color: white;
   -webkit-box-shadow: 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
   box-shadow: 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  animation: 0.5s slide-in, 2.5s brigthen;
+}
+
+@keyframes slide-in {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-top: 0%;
+  }
+}
+
+@keyframes brigthen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .grid-item:hover {
@@ -65,6 +100,9 @@ body {
   box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
   background-image: url(./spongebob.JPG);
   background-size: cover;
+}
+.thumbnail-spongebob:hover {
+  box-shadow: inset 1px 1px 30px -5px rgb(255, 255, 255);
 }
 
 .thumbnail-sad-scarjo {
@@ -163,8 +201,16 @@ body {
   background-size: cover;
 }
 
+.thumbnail-lois:hover {
+  transform: scaleX(-1);
+}
+
 .caption {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   text-align: center;
+}
+
+.caption:hover {
+  font-style: oblique;
 }
