@@ -1,15 +1,10 @@
-/* html,
-body,
-* {
+html,
+body {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  font-size: 62.5%;*/
-}
-
-body {
-  margin: 0;
   background-color: #f5eeff;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 .main-div {
@@ -22,28 +17,28 @@ body {
 
 #divider {
   width: 55vw;
-  height: 1px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  height: 0.1rem;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.15);
 }
 
 #header {
   position: relative;
   animation: 1s slide-down;
   font-family: "Montserrat", sans-serif;
-  font-size: 38px;
+  font-size: 3.5rem;
   cursor: pointer;
 }
 
 #header:hover {
-  font-size: 40px;
+  font-size: 4rem;
 }
 
 @keyframes slide-down {
   from {
-    top: -150px;
+    top: -15rem;
   }
   to {
-    top: 0px;
+    top: 0rem;
   }
 }
 
@@ -60,13 +55,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 10px;
-  width: 200px;
-  height: 300px;
-  margin: 20px;
+  border-radius: 1rem;
+  width: 20rem;
+  height: 30rem;
+  margin: 2rem;
   background-color: white;
-  -webkit-box-shadow: 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
-  box-shadow: 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0.1rem 0.1rem 1rem -0.05rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0.1rem 0.1rem 1rem -0.05rem rgba(0, 0, 0, 0.5);
   animation: 0.5s slide-in, 2.5s brigthen;
 }
 
@@ -89,123 +84,123 @@ body {
 }
 
 .grid-item:hover {
-  -webkit-box-shadow: 1px 1px 20px -5px rgba(0, 0, 0, 0.5);
-  box-shadow: 1px 1px 20px -5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0.1rem 0.1rem 2rem -0.5rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0.1rem 0.1rem 2rem -0.5rem rgba(0, 0, 0, 0.5);
 }
 
 .grid-container {
   display: flex;
-  padding: 5px;
+  padding: 0.5rem;
   flex-direction: row;
 }
 
 .thumbnail-spongebob {
-  margin: 5px;
+  margin: 0.5rem;
   display: flex;
-  border-radius: 10px;
+  border-radius: 1rem;
   height: 80%;
   width: 95%;
-  -webkit-box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
-  box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0.1rem 0.1rem 1rem -0.5rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0.1rem 0.1rem 1rem -0.5rem rgba(0, 0, 0, 0.5);
   background-image: url(./spongebob.JPG);
   background-size: cover;
 }
 .thumbnail-spongebob:hover {
-  box-shadow: inset 1px 1px 30px -5px rgb(255, 255, 255);
+  box-shadow: inset 0.1rem 0.1rem 3rem -0.5rem rgb(255, 255, 255);
 }
 
 .thumbnail-sad-scarjo {
-  margin: 5px;
+  margin: 0.5rem;
   display: flex;
-  border-radius: 10px;
+  border-radius: 1rem;
   height: 80%;
   width: 95%;
-  -webkit-box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
-  box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0.1rem 0.1rem 1rem -0.5rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0.1rem 0.1rem 1rem -0.5rem rgba(0, 0, 0, 0.5);
   background-image: url(./sad-scarjo.JPG);
   background-size: cover;
 }
 
 .thumbnail-arthur {
-  margin: 5px;
+  margin: 0.5rem;
   display: flex;
-  border-radius: 10px;
+  border-radius: 1rem;
   height: 80%;
   width: 95%;
-  -webkit-box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
-  box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0.1rem 0.1rem 1rem -0.5rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0.1rem 0.1rem 1rem -0.5rem rgba(0, 0, 0, 0.5);
   background-image: url(./arthur.jpg);
-  background-size: 220px 250px;
+  background-size: 22rem 25rem;
 }
 
 .thumbnail-dog {
-  margin: 5px;
+  margin: 0.5rem;
   display: flex;
-  border-radius: 10px;
+  border-radius: 1rem;
   height: 80%;
   width: 95%;
-  -webkit-box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
-  box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0.1rem 0.1rem 1rem -0.5rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0.1rem 0.1rem 1rem -0.5rem rgba(0, 0, 0, 0.5);
   background-image: url(./dog.JPG);
-  background-size: 190px 250px;
+  background-size: 19rem 25rem;
 }
 
 .thumbnail-simpson {
-  margin: 5px;
+  margin: 0.5rem;
   display: flex;
-  border-radius: 10px;
+  border-radius: 1rem;
   height: 80%;
   width: 95%;
-  -webkit-box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
-  box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0.1rem 0.1rem 1rem -0.5rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0.1rem 0.1rem 1rem -0.5rem rgba(0, 0, 0, 0.5);
   background-image: url(./simpson.jpg);
   background-size: cover;
 }
 
 .thumbnail-shrek {
-  margin: 5px;
+  margin: 0.5rem;
   display: flex;
-  border-radius: 10px;
+  border-radius: 1rem;
   height: 80%;
   width: 95%;
-  -webkit-box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
-  box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0.1rem 0.1rem 1rem -0.5rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0.1rem 0.1rem 1rem -0.5rem rgba(0, 0, 0, 0.5);
   background-image: url(./shrek.JPG);
-  background-size: 190px 250px;
+  background-size: 19rem 25rem;
 }
 
 .thumbnail-gibby {
-  margin: 5px;
+  margin: 0.5rem;
   display: flex;
-  border-radius: 10px;
+  border-radius: 1rem;
   height: 80%;
   width: 95%;
-  -webkit-box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
-  box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0.1rem 0.1rem 1rem -0.5rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0.1rem 0.1rem 1rem -0.5rem rgba(0, 0, 0, 0.5);
   background-image: url(./gibby.JPG);
   background-size: cover;
 }
 
 .thumbnail-dababy {
-  margin: 5px;
+  margin: 0.5rem;
   display: flex;
-  border-radius: 10px;
+  border-radius: 1rem;
   height: 80%;
   width: 95%;
-  -webkit-box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
-  box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0.1rem 0.1rem 1rem -0.5rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0.1rem 0.1rem 1rem -0.5rem rgba(0, 0, 0, 0.5);
   background-image: url(./dababy.JPG);
   background-size: cover;
 }
 
 .thumbnail-lois {
-  margin: 5px;
+  margin: 0.5rem;
   display: flex;
-  border-radius: 10px;
+  border-radius: 1rem;
   height: 80%;
   width: 95%;
-  -webkit-box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
-  box-shadow: inset 1px 1px 10px -5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0.1rem 0.1rem 1rem -0.5rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0.1rem 0.1rem 1rem -0.5rem rgba(0, 0, 0, 0.5);
   background-image: url(./lois.JPG);
   background-size: cover;
 }
@@ -216,14 +211,10 @@ body {
 
 .caption {
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+  font-size: 1.8rem;
   text-align: center;
 }
 
 .caption:hover {
   font-style: oblique;
-}
-
-/*@media screen and (max-width: 800px) {
-  
 }
